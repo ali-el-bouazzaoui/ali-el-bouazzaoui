@@ -1,26 +1,52 @@
-# Ali El Bouazzaoui
+<p align="center">
+  <img src="assets/header.svg" alt="Ali El Bouazzaoui – cybersecurity, cloud security, DevSecOps, AI and data" width="100%">
+</p>
 
-**Alternant ingénieur informatique – DevSecOps chez SNCF Voyageurs | Polytech Lyon** (diplôme en 2027)
+<p align="center">
+  <b>Software Engineering Apprentice (Work-Study) – DevSecOps at SNCF Voyageurs | Polytech Lyon</b><br>
+  Engineering degree in 2027 · Lyon, France
+</p>
 
-Je m'intéresse particulièrement à la **cybersécurité technique, au Cloud Security et au DevSecOps**.
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
 
-## En ce moment
-- Alternance chez SNCF Voyageurs : conception et évolution d'une application métier de bout en bout (analyse du besoin, architecture full-stack, sécurité applicative avec RBAC et traçabilité), avec un travail sur l'hébergement et l'intégration des pratiques DevSecOps.
-- En parallèle : projets de déploiement, d'automatisation et de sécurisation d'infrastructures (Linux, Docker, VPS).
-- Je publie ici mes projets personnels et académiques, au fur et à mesure.
+## About
 
-## Ce que je pratique
-- **Développement :** React, Node.js / Express, NestJS, Next.js, TypeScript, Java, Python
-- **Données :** PostgreSQL, SQL, Prisma
-- **Sécurité applicative :** authentification JWT, contrôle d'accès par rôles (RBAC), traçabilité, bases de cryptographie
-- **Infrastructure (projets personnels) :** Linux, Docker, déploiement sur VPS
+I'm especially interested in **technical cybersecurity, cloud security and DevSecOps**, and in how **AI** can make security and cloud operations smarter, on top of a solid foundation in **data engineering**.
 
-## Ce que j'apprends
-- Pentest (tests d'intrusion) et analyse de vulnérabilités
-- SOC : détection et supervision des événements de sécurité
-- CI/CD sécurisé (GitLab CI/CD) et Kubernetes
-- Sécurité du cloud
-- DevSecOps : tests automatisés, analyse des dépendances, détection de secrets
+## Right now
 
-## Me contacter
+- Work-study at SNCF Voyageurs: designing and evolving a business application end to end (requirements analysis, full-stack architecture, application security with RBAC and traceability), with work on hosting and on integrating DevSecOps practices.
+- On the side: personal projects around deployment, automation and securing infrastructure (Linux, Docker, VPS).
+- I publish my personal and academic projects here, as they are finished.
+
+## What I practice and what I'm learning
+
+| Security | Cloud & infrastructure | Data & AI |
+|---|---|---|
+| **Practicing**<br>Application security: RBAC, JWT authentication, traceability | **Practicing**<br>Linux, Docker, deployment on a VPS (personal projects) | **Practicing**<br>SQL and PostgreSQL, Python, ETL/ELT concepts, data warehousing (Bronze/Silver/Gold), machine-learning basics (PCA, clustering, supervised models) |
+| **Learning**<br>Pentesting, vulnerability analysis, SOC monitoring | **Learning**<br>GitLab CI/CD, Kubernetes, cloud security | **Learning**<br>Airflow, dbt, Spark, MLOps |
+
+**Languages and frameworks:** `Python` `Java` `TypeScript` `JavaScript` `SQL` · `React` `Node.js / Express` `NestJS` `Next.js` · `PostgreSQL` `Prisma` · `Git`
+
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
+
+## Where AI meets cloud and security
+
+Areas I'm exploring and building towards:
+
+- **AI-assisted SOC:** triage and prioritization of security alerts
+- **Anomaly detection:** machine learning on logs and cloud events
+- **DevSecOps for data and ML pipelines:** automated tests, dependency and secret scanning applied to data workflows
+
+I'll publish projects here when they are ready.
+
+## Selected projects
+
+| Project | What it is | Stack |
+|---|---|---|
+| [VRPTW Metaheuristics](https://github.com/ali-el-bouazzaoui/OptimisationAli-Ayoub) | Vehicle routing with time windows, solved with simulated annealing and tabu search (pair project) | Python |
+| [FanfareHub](https://github.com/ali-el-bouazzaoui/FanfareHub) | Web app to manage the members, sections and events of a brass band (team project) | Java, Servlets/JSP, PostgreSQL |
+
+## Get in touch
+
 [LinkedIn](https://www.linkedin.com/in/ali-el-bouazzaoui)

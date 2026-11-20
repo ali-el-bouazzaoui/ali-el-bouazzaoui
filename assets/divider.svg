@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 6" width="100%" role="presentation" aria-hidden="true">
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3ab8ff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#3ab8ff" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#3ab8ff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#bfe6ff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#bfe6ff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="2" width="1000" height="2" fill="url(#base)"/>
+  <rect x="-220" y="1" width="220" height="4" rx="2" fill="url(#shine)">
+    <animate attributeName="x" from="-220" to="1000" dur="5s" repeatCount="indefinite"/>
+  </rect>
+</svg>

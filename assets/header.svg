@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280" width="100%" role="img" aria-label="Ali El Bouazzaoui. Cybersecurity, cloud security, DevSecOps, AI and data.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050b1f"/>
+      <stop offset="0.55" stop-color="#0b2347"/>
+      <stop offset="1" stop-color="#0a3d62"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.83" cy="0.5" r="0.45">
+      <stop offset="0" stop-color="#3ab8ff" stop-opacity="0.40"/>
+      <stop offset="1" stop-color="#3ab8ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6cc7ff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#6cc7ff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#6cc7ff" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#6cc7ff" fill-opacity="0.12"/>
+    </pattern>
+    <clipPath id="c1"><rect x="84" y="170" height="40" width="0">
+      <animate attributeName="width" values="0;560;560;0;0" keyTimes="0;0.13;0.30;0.33;1" dur="9s" begin="0s" repeatCount="indefinite"/>
+    </rect></clipPath>
+    <clipPath id="c2"><rect x="84" y="170" height="40" width="0">
+      <animate attributeName="width" values="0;400;400;0;0" keyTimes="0;0.13;0.30;0.33;1" dur="9s" begin="3s" repeatCount="indefinite"/>
+    </rect></clipPath>
+    <clipPath id="c3"><rect x="84" y="170" height="40" width="0">
+      <animate attributeName="width" values="0;386;386;0;0" keyTimes="0;0.13;0.30;0.33;1" dur="9s" begin="6s" repeatCount="indefinite"/>
+    </rect></clipPath>
+  </defs>
+
+  <rect width="1000" height="280" fill="url(#bg)"/>
+  <rect width="1000" height="280" fill="url(#dots)"/>
+  <rect width="1000" height="280" fill="url(#glow)"/>
+
+  <!-- floating network, left of the shield -->
+  <g stroke="#6cc7ff" stroke-opacity="0.25" stroke-width="1" fill="none">
+    <line x1="640" y1="58" x2="700" y2="112"/>
+    <line x1="700" y1="112" x2="780" y2="120"/>
+    <line x1="700" y1="112" x2="690" y2="204"/>
+    <line x1="690" y1="204" x2="790" y2="185"/>
+    <line x1="600" y1="150" x2="700" y2="112"/>
+    <line x1="600" y1="150" x2="690" y2="204"/>
+    <line x1="960" y1="40" x2="880" y2="120"/>
+    <line x1="970" y1="232" x2="870" y2="185"/>
+  </g>
+  <g fill="#6cc7ff">
+    <circle cx="640" cy="58" r="2.5" fill-opacity="0.5"><animate attributeName="fill-opacity" values="0.25;0.8;0.25" dur="3.4s" repeatCount="indefinite"/></circle>
+    <circle cx="700" cy="112" r="3" fill-opacity="0.6"><animate attributeName="fill-opacity" values="0.3;0.9;0.3" dur="2.8s" begin="0.6s" repeatCount="indefinite"/></circle>
+    <circle cx="690" cy="204" r="3" fill-opacity="0.6"><animate attributeName="fill-opacity" values="0.3;0.9;0.3" dur="3.1s" begin="1.1s" repeatCount="indefinite"/></circle>
+    <circle cx="600" cy="150" r="2.5" fill-opacity="0.5"><animate attributeName="fill-opacity" values="0.25;0.8;0.25" dur="3.7s" begin="0.3s" repeatCount="indefinite"/></circle>
+    <circle cx="960" cy="40" r="2.5" fill-opacity="0.5"><animate attributeName="fill-opacity" values="0.25;0.8;0.25" dur="3.3s" begin="1.4s" repeatCount="indefinite"/></circle>
+    <circle cx="970" cy="232" r="2.5" fill-opacity="0.5"><animate attributeName="fill-opacity" values="0.25;0.8;0.25" dur="2.9s" begin="0.9s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- shield -->
+  <path d="M830 40 L925 74 V140 C925 196 885 232 830 256 C775 232 735 196 735 140 V74 Z" fill="#4cc2ff" fill-opacity="0.07" stroke="#4cc2ff" stroke-width="2">
+    <animate attributeName="stroke-opacity" values="0.45;1;0.45" dur="3.6s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- network inside the shield -->
+  <g stroke="#bfe6ff" stroke-opacity="0.55" stroke-width="1.2" fill="none">
+    <line x1="830" y1="86" x2="780" y2="120"/>
+    <line x1="830" y1="86" x2="880" y2="120"/>
+    <line x1="780" y1="120" x2="880" y2="120"/>
+    <line x1="780" y1="120" x2="830" y2="150"/>
+    <line x1="880" y1="120" x2="830" y2="150"/>
+    <line x1="780" y1="120" x2="790" y2="185"/>
+    <line x1="880" y1="120" x2="870" y2="185"/>
+    <line x1="830" y1="150" x2="790" y2="185"/>
+    <line x1="830" y1="150" x2="870" y2="185"/>
+    <line x1="790" y1="185" x2="870" y2="185"/>
+    <line x1="790" y1="185" x2="830" y2="222"/>
+    <line x1="870" y1="185" x2="830" y2="222"/>
+  </g>
+  <g fill="#e8f6ff">
+    <circle cx="830" cy="86" r="4"><animate attributeName="r" values="3;5.5;3" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="780" cy="120" r="4"><animate attributeName="r" values="3;5.5;3" dur="3.0s" begin="0.4s" repeatCount="indefinite"/></circle>
+    <circle cx="880" cy="120" r="4"><animate attributeName="r" values="3;5.5;3" dur="2.8s" begin="0.8s" repeatCount="indefinite"/></circle>
+    <circle cx="830" cy="150" r="5"><animate attributeName="r" values="4;7;4" dur="2.4s" begin="0.2s" repeatCount="indefinite"/></circle>
+    <circle cx="790" cy="185" r="4"><animate attributeName="r" values="3;5.5;3" dur="3.2s" begin="1.0s" repeatCount="indefinite"/></circle>
+    <circle cx="870" cy="185" r="4"><animate attributeName="r" values="3;5.5;3" dur="2.7s" begin="0.6s" repeatCount="indefinite"/></circle>
+    <circle cx="830" cy="222" r="4"><animate attributeName="r" values="3;5.5;3" dur="3.1s" begin="1.3s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- data packets travelling through the shield -->
+  <circle r="3.2" fill="#ffffff">
+    <animateMotion dur="3.2s" repeatCount="indefinite" path="M830 86 L830 150 L830 222"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="3.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="3.2" fill="#9fe0ff">
+    <animateMotion dur="3.8s" begin="1s" repeatCount="indefinite" path="M780 120 L830 150 L870 185"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="3.8s" begin="1s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="3.2" fill="#9fe0ff">
+    <animateMotion dur="3.5s" begin="2s" repeatCount="indefinite" path="M880 120 L830 150 L790 185"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="3.5s" begin="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- text -->
+  <text x="56" y="100" fill="#ffffff" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="46" font-weight="700" letter-spacing="0.5">Ali El Bouazzaoui</text>
+  <text x="58" y="136" fill="#9fc7ee" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17">Software Engineering Apprentice · Polytech Lyon</text>
+
+  <text x="58" y="196" fill="#6cc7ff" font-family="SFMono-Regular, Consolas, Menlo, 'Liberation Mono', monospace" font-size="22">&gt;</text>
+  <g clip-path="url(#c1)">
+    <text x="84" y="196" fill="#6cc7ff" font-family="SFMono-Regular, Consolas, Menlo, 'Liberation Mono', monospace" font-size="22" textLength="560" lengthAdjust="spacingAndGlyphs">Cybersecurity · Cloud Security · DevSecOps</text>
+  </g>
+  <g clip-path="url(#c2)">
+    <text x="84" y="196" fill="#6cc7ff" font-family="SFMono-Regular, Consolas, Menlo, 'Liberation Mono', monospace" font-size="22" textLength="400" lengthAdjust="spacingAndGlyphs">AI applied to cloud &amp; security</text>
+  </g>
+  <g clip-path="url(#c3)">
+    <text x="84" y="196" fill="#6cc7ff" font-family="SFMono-Regular, Consolas, Menlo, 'Liberation Mono', monospace" font-size="22" textLength="386" lengthAdjust="spacingAndGlyphs">Data pipelines · SQL · Python</text>
+  </g>
+  <!-- cursors following each typed line -->
+  <rect x="84" y="177" width="3" height="24" fill="#6cc7ff" opacity="0">
+    <animate attributeName="x" values="84;644;644;84;84" keyTimes="0;0.13;0.30;0.33;1" dur="9s" begin="0s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;1;0;1;0;1;0;0" keyTimes="0;0.13;0.17;0.21;0.25;0.29;0.33;1" dur="9s" begin="0s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="84" y="177" width="3" height="24" fill="#6cc7ff" opacity="0">
+    <animate attributeName="x" values="84;484;484;84;84" keyTimes="0;0.13;0.30;0.33;1" dur="9s" begin="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;1;0;1;0;1;0;0" keyTimes="0;0.13;0.17;0.21;0.25;0.29;0.33;1" dur="9s" begin="3s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="84" y="177" width="3" height="24" fill="#6cc7ff" opacity="0">
+    <animate attributeName="x" values="84;470;470;84;84" keyTimes="0;0.13;0.30;0.33;1" dur="9s" begin="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;1;0;1;0;1;0;0" keyTimes="0;0.13;0.17;0.21;0.25;0.29;0.33;1" dur="9s" begin="6s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- sweeping light on the bottom edge -->
+  <rect x="-300" y="276" width="300" height="3" fill="url(#sweep)">
+    <animate attributeName="x" from="-300" to="1000" dur="4.5s" repeatCount="indefinite"/>
+  </rect>
+</svg>
