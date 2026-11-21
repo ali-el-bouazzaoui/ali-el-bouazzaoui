@@ -23,10 +23,10 @@ I'm especially interested in **technical cybersecurity, cloud security and DevSe
 
 | Security | Cloud & infrastructure | Data & AI |
 |---|---|---|
-| **Practicing**<br>Application security: RBAC, JWT authentication, traceability | **Practicing**<br>Linux, Docker, deployment on a VPS (personal projects) | **Practicing**<br>SQL and PostgreSQL, Python, ETL/ELT concepts, data warehousing (Bronze/Silver/Gold), machine-learning basics (PCA, clustering, supervised models) |
-| **Learning**<br>Pentesting, vulnerability analysis, SOC monitoring | **Learning**<br>GitLab CI/CD, Kubernetes, cloud security | **Learning**<br>Airflow, dbt, Spark, MLOps |
+| **Practicing**<br>Application security: RBAC, JWT authentication, traceability | **Practicing**<br>Linux, Docker, deployment on a VPS (personal projects) | **Practicing**<br>SQL and PostgreSQL, Python with pandas, ETL/ELT concepts, data warehousing (Bronze/Silver/Gold), machine-learning basics with scikit-learn (PCA, clustering, supervised models) |
+| **Learning**<br>Pentesting, vulnerability analysis, SOC monitoring | **Learning**<br>GitLab CI/CD, Kubernetes, cloud security | **Learning**<br>PyTorch (deep learning), Airflow, dbt, Spark, MLOps |
 
-**Languages and frameworks:** `Python` `Java` `TypeScript` `JavaScript` `SQL` · `React` `Node.js / Express` `NestJS` `Next.js` · `PostgreSQL` `Prisma` · `Git`
+**Languages and frameworks:** `Python` `Java` `TypeScript` `JavaScript` `SQL` · `React` `Node.js / Express` `NestJS` `Next.js` · `PostgreSQL` `Prisma` · `pandas` `scikit-learn` · `Git`
 
 <p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
 
